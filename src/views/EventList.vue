@@ -7,11 +7,10 @@
 <script>
 // @ is an alias to /src
 import EventCard from "@/components/EventCard.vue";
-
 export default {
-  name: "Home",
+  name: "EventList",
   components: {
-    EventCard, // register it as a child component
+    EventCard,
   },
   data() {
     return {
@@ -55,7 +54,7 @@ export default {
 };
 </script>
 
-<style lang="css" scoped>
+<style scoped>
 .events {
   display: flex;
   flex-direction: column;
